@@ -4,7 +4,7 @@ import {urlMeta} from '@/components/lib';
 export default function Home() {
   return (
     <Template urlMeta={urlMeta.home}>
-      abc
+      Homepage
     </Template>
   );
 }
