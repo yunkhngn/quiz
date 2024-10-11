@@ -1,0 +1,1 @@
+export {default as urlMeta} from './urlMeta';

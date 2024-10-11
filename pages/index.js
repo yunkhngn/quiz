@@ -1,9 +1,10 @@
-
+import {Template} from '@/components/template';
+import {urlMeta} from '@/components/lib';
 
 export default function Home() {
   return (
-    <div>
-      
-    </div>
+    <Template urlMeta={urlMeta.home}>
+      abc
+    </Template>
   );
 }
