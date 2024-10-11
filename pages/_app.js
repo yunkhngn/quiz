@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
     <StyletronProvider value={styletron}>
       <Component {...pageProps} />
       <Header />
-      {/* <Nav /> */}
+      <Nav />
     </StyletronProvider>
   );
 }
