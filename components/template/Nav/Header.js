@@ -1,14 +1,15 @@
 import React from "react";
 import { Div, Button, Icon, Input } from "atomize";
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   return (
       <Div
         h={{ xs: "60px", md: "60px" }}
-        p="1rem"
+        p="1em"
         d="flex"
-        justify="flex-end"
+        justify="space-between"
         align="center"
         pos="fixed"
         top="0"
@@ -17,6 +18,32 @@ const Header = () => {
         bg="#0a092d"
         zIndex="999"
       >
+        <Div
+        d="flex"
+        align="center"
+        m={{ l: "1em" }}
+        >
+        <Link href="/">
+          <Image
+            src="/assets/logo.png"
+            alt="logo"
+            width="30"
+            height="30"
+            priority={true}
+          />
+        </Link>
+        <Link href="/library">
+          <Button
+              m={{ l: "2em" }}
+              bg="#FFCD1F"
+              h="40px"
+              textColor="black"
+              textWeight="700"
+            >
+              Học phần
+            </Button>
+        </Link>
+        </Div>
         <Div d="flex" align="center">
           <Button m={{ r: "1em" }} bg="#4255FF" w="40px" h="40px">
             <Icon name="Plus" size="20px" color="white" />
