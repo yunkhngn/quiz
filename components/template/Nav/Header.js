@@ -25,7 +25,7 @@ const Header = () => {
         >
         <Link href="/">
           <Image
-            src="/assets/logo.png"
+            src="/assets/logo-white.png"
             alt="logo"
             width="30"
             height="30"
@@ -34,7 +34,7 @@ const Header = () => {
         </Link>
         <Link href="/library">
           <Button
-              m={{ l: "2em" }}
+              m={{ l: "3em" }}
               bg="#FFCD1F"
               h="40px"
               textColor="black"
@@ -43,6 +43,17 @@ const Header = () => {
               Học phần
             </Button>
         </Link>
+        <Button
+            m={{ l: "1em" }}
+            bg="#4255FF"
+            w="40px"
+            textColor="black"
+            textWeight="700"
+            onClick={() => {window.open("https://github.com/yunkhngn/quiz", "_blank")}}
+          >
+            <Icon name="Github" size="20px" color="white" />
+          </Button>
+
         </Div>
         <Div d="flex" align="center">
           <Button m={{ r: "1em" }} bg="#4255FF" w="40px" h="40px">
