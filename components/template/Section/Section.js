@@ -21,6 +21,24 @@ const Section = () => {
       description: 'Description',
       tag: '15',
       slug: '/'
+    },
+    {
+      title: 'Quốc kì thế giới',
+      description: 'Description',
+      tag: '124',
+      slug: '/'
+    },
+    {
+      title: 'Math',
+      description: 'Description',
+      tag: '156',
+      slug: '/'
+    },
+    {
+      title: 'English',
+      description: 'Description',
+      tag: '15',
+      slug: '/'
     }
   ]
   return (

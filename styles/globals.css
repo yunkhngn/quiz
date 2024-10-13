@@ -48,13 +48,13 @@ a {
 .cardSection:hover::after{
   content: '';
   display: block;
-  width: 95%;
+  width: 97%;
   height: 5px;
   margin:auto;
   background: #a8b1ff;
   border-radius: 0 0 5px 5px;
   position: relative;
-  bottom: -6px;
+  bottom: 0;
 }
 
 @media screen and (max-width: 768px){

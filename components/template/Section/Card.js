@@ -21,7 +21,12 @@ const Card = ({title, description, tag, slug}) => {
         >
           {`${tag} thuật ngữ`}
         </Tag>
-        <Text textSize="paragraph" textColor="white" m={{ t: "2em" }}>
+        <Text 
+          textSize="paragraph" 
+          textColor="white" 
+          m={{ t: "3em" }}
+          textWeight="700"
+          >
           {description}
         </Text>
         </Div>

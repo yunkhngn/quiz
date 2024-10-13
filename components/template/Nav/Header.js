@@ -32,9 +32,14 @@ const Header = () => {
             priority={true}
           />
         </Link>
-        <Link href="/library">
-          <Button
-              m={{ l: "3em" }}
+        </Div>
+        <Div d="flex" align="center">
+          <Button m={{ r: "1em" }} bg="#4255FF" w="40px" h="40px">
+            <Icon name="Plus" size="20px" color="white" />
+          </Button>
+          <Link href="/library">
+            <Button
+              m={{ r: "1em" }}
               bg="#FFCD1F"
               h="40px"
               textColor="black"
@@ -42,32 +47,7 @@ const Header = () => {
             >
               Học phần
             </Button>
-        </Link>
-        <Button
-            m={{ l: "1em" }}
-            bg="#4255FF"
-            w="40px"
-            textColor="black"
-            textWeight="700"
-            onClick={() => {window.open("https://github.com/yunkhngn/quiz", "_blank")}}
-          >
-            <Icon name="Github" size="20px" color="white" />
-          </Button>
-
-        </Div>
-        <Div d="flex" align="center">
-          <Button m={{ r: "1em" }} bg="#4255FF" w="40px" h="40px">
-            <Icon name="Plus" size="20px" color="white" />
-          </Button>
-          <Button
-            m={{ r: "1em" }}
-            bg="#FFCD1F"
-            h="40px"
-            textColor="black"
-            textWeight="700"
-          >
-            Tớ iu Chíp
-          </Button>
+          </Link>
           <Image
             src="/assets/avt.jpeg"
             alt="avt"

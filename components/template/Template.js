@@ -6,7 +6,7 @@ const Template = ({ children, urlMeta }) => {
   return (
     <Div
     w={{xs:"90vw", md:"80vw"}}
-    m="120px auto 0"
+    m="120px auto 12em"
     >
       <Meta meta={urlMeta}/>
       {children}
