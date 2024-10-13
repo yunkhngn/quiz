@@ -21,7 +21,7 @@ const Header = () => {
         <Div
         d="flex"
         align="center"
-        m={{ l: "1em" }}
+        m={{ l: {md:"1em"} }}
         >
         <Link href="/">
           <Image
