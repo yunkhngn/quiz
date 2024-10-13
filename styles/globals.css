@@ -29,3 +29,36 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.category{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.cardSection{
+  width: 100%;
+  height: 180px;
+  background: #2e3856;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.cardSection:hover::after{
+  content: '';
+  display: block;
+  width: 95%;
+  height: 5px;
+  margin:auto;
+  background: #a8b1ff;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+  bottom: -6px;
+}
+
+@media screen and (max-width: 768px){
+  .category{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
